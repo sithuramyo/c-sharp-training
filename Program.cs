@@ -1,12 +1,13 @@
-﻿using System;
+﻿using CSharpTraining.Examples;
+using System;
 
 namespace CSharpTraining
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ADODotNetExample.Run();
         }
     }
 }
