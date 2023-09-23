@@ -18,5 +18,7 @@ namespace CSharpTraining.DTOs
         public string BlogContent { get; set;}
         [Column("Blog_Author")]
         public string BlogAuthor { get; set; }
+
+        
     }
 }

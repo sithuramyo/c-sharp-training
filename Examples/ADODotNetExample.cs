@@ -23,7 +23,7 @@ namespace CSharpTraining.Examples
 
             Console.Write("Enter Blog Content  : ");
             blogModel.BlogContent = Console.ReadLine();
-
+            
 
             BlogDTO dto = blogModel.Change();
 
@@ -46,10 +46,10 @@ namespace CSharpTraining.Examples
             #region GetAll
 
             #endregion
-
+            
 
             #region GetById
-
+            
             #endregion
 
             #region Update
